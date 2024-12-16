@@ -27,8 +27,7 @@ body {
 
 .card {
     display: flex;
-    padding: 30px;
-    justify-content: center;
+    padding: 10px 30px;
     align-items: center;
 }
 

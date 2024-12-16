@@ -1,7 +1,9 @@
-export default function Entry() {
+import { FC } from "react";
+
+const Entry: FC = () => {
     return (
         <div className="card">
-            <img src="src/assets/img/mount-fiji.jpg" alt="mount fuji" />
+            <img src="src/assets/img/mount-fuji.jpg" alt="mount fuji" />
             <div className="content">
                 <div className="location-bar">
                     <img
@@ -14,7 +16,7 @@ export default function Entry() {
                     </a>
                 </div>
                 <h2>Mount Fuji</h2>
-                <h6>10th Dec. 2023 - 20th Dec. 2023</h6>
+                <h5>10th Dec. 2023 - 20th Dec. 2023</h5>
                 <p>
                     Mount Fuji is Japan's tallest mountain, standing at 3,776
                     meters, and is an iconic symbol of the country. Known for
@@ -26,4 +28,6 @@ export default function Entry() {
             </div>
         </div>
     );
-}
+};
+
+export default Entry;

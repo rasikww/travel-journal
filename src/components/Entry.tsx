@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export interface EntryProps {
+interface EntryProps {
     img: Image;
     title: string;
     country: string;
